@@ -1,0 +1,58 @@
+Jenkins  -- Install & Run
+==========================
+
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+sudo systemctl status jenkins
+
+
+Git Command
+===========================
+create a new repository on the command line
+-------------------------------------------
+echo "# Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin <<>>
+git push -u origin main
+
+
+push an existing repository from the command line
+--------------------------------------------------- 
+git remote add origin https://github.com/Dasaradha1205/Website.git
+git branch -M main
+git push -u origin main
+
+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
+
+Docker 
+=====================
+
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+sudo apt update
+apt-cache policy docker-ce
+sudo apt install docker-ce
+sudo systemctl status docker
+
+sudo docker ps
+sudo docker rm -f $(sudo docker ps -a -q) 
+sudo docker run -it  -d < Software> <Containername>
+sudo docker build /home/ubuntu/jenkins/workspace/Git-job -t website
+sudo docker run -it -p 82:80 -d website
+
+
+
+Important mails :
+============================
+
+DevOps Tools Full Course 2022 == >  https://www.youtube.com/watch?v=12HwsqHoaE8 
+
+
+ 

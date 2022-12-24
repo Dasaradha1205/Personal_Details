@@ -1,0 +1,8 @@
+Git                                 GitHub
+------------------ 
+1. It is a software                   1. GitHub is a service 
+2. It is installed in local system    2. it is hosted on Web
+3 It is used to manage  different 
+  versions of the source code         3. it is used to have a local repository of code 
+4. It provide a CLI interface        4. It provides a GUI
+   
